@@ -3,5 +3,6 @@
 # Answer:
 -Performance : 
 Having active foreign keys on tables improves data quality but hurts performance of insert, update and delete operations.
+
 -We should not use foreign keys to enhance functionality, edit, delete data. Use foreign keys only in cases where the data needs to be consistent with each other.
  
