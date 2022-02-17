@@ -8,6 +8,7 @@ import (
 	"Project/module/upload/uploadtransport/ginupload"
 	"Project/module/user/usertransport/ginuser"
 	"github.com/gin-gonic/gin"
+	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"log"
 	"net/http"
