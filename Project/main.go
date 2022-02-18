@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	dsn := os.Getenv("DBConnectionStr")
+	dsn := os.Getenv("DBConnectionString")
 
 	s3BucketName := os.Getenv("S3BucketName")
 	s3Region := os.Getenv("S3Region")

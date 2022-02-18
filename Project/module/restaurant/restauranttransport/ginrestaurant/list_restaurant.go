@@ -6,6 +6,8 @@ import (
 	"Project/module/restaurant/restaurantbiz"
 	"Project/module/restaurant/restaurantmodel"
 	"Project/module/restaurant/restaurantstorage"
+	restaurantlikestorage "Project/module/restaurantlike/storage"
+
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
