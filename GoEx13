@@ -1,0 +1,4 @@
+# Nếu chúng ta có nhiều hơn 1 module, làm sao để giao tiếp với nhau. Giả sử module "Restaurant" cần data số lượt like từ module "Like Restaurant" thì sẽ truy xuất như thế nào?
+# Trả lời :
+- Để giao tiếp giữa nhiều module với nhau, ở một tầng của module này ta gọi một hàm được định nghĩa và thao tác ở một tầng của module khác.
+- Tạo thêm hàm GetRestaurantLikes để đếm số lượt like ở tầng storage của module "Like Restaurant", ở tầng business của module "Restaurant" gọi lại hàm này để lấy dữ liệu từ module "Like Restaurant".
