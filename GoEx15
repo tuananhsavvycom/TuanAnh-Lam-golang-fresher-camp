@@ -1,0 +1,4 @@
+# Trong trường hợp tạo cột đếm thì làm sao để update cột đó? Làm sao để API chính không bị block vì phải update số đếm?
+# Trả lời :
+- Sử dụng hàm Update với SQL Expression của thư viện GORM để tăng hoặc giảm số like trên cột đó.
+- Để API chính không bị block thì ta sử dụng một goroutine khác để thực hiện việc update và cơ chế Recover để tránh crash chương trình.
