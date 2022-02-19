@@ -1,0 +1,4 @@
+# Khi nào cần tạo các cột số đếm ngay trên table dữ liệu (VD: liked_count trên restaurants)?
+# Trả lời :
+- Khi API lấy dữ liệu cột đếm cần chịu tải nhiều. Khi dữ liệu lớn việc truy xuất xuống cơ sở dữ liệu mất nhiều thời gian tính toán.
+- Khi API lấy lượt like của restaurants cần chịu tải cao, việc tạo thêm cột liked_count(mang tính chất caching) sẽ tránh được việc mỗi lần gọi API sẽ phải lấy dữ liệu ở cơ sở dữ liệu để tính toán.
